@@ -9,7 +9,7 @@ menu "MAX17048"
         depends on MAX17048_ACTIVE
     config MAX17048_ALERT_PIN
         int "ALERT Pin"
-        default 18
+        default 45
         depends on MAX17048_ACTIVE
     config MAX17048_INTERRUPT_PIN
         int "INTERRUPT Pin"
